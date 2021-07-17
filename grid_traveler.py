@@ -16,8 +16,8 @@ def grid_traveler(m: int, n: int, memo={}):
     return memo[(m, n)]
 
 
-print(grid_traveler(1, 1))
-print(grid_traveler(2, 3))
-print(grid_traveler(3, 3))
-print(grid_traveler(18, 18))
-print(grid_traveler(80, 80))
+print(grid_traveler(1, 1, {}))
+print(grid_traveler(2, 3, {}))
+print(grid_traveler(3, 3, {}))
+print(grid_traveler(18, 18, {}))
+print(grid_traveler(80, 80, {}))

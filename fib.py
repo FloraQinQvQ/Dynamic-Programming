@@ -10,5 +10,5 @@ def fib(n: int, memo={}):
     return memo[n]
 
 
-print(fib(5))
-print(fib(50))
+print(fib(5, {}))
+print(fib(50, {}))
