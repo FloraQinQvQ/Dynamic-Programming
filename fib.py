@@ -1,13 +1,14 @@
-def fib(n, memo = {}):
+def fib(n: int, memo={}):
     if n in memo:
         return memo[n]
 
     if (n <= 2):
         return 1
-    
+
     memo[n] = fib(n - 1) + fib(n - 2)
 
     return memo[n]
-    
-print (fib(5))
-print (fib(50))
+
+
+print(fib(5))
+print(fib(50))
